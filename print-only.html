@@ -8,10 +8,20 @@
         display: none;
       }
     }
+    @media (max-width:500px) {
+      #onlyScreen::before {
+        content: "This paragraph is not here when printed";
+      }
+    }
+    @media (min-width:499px) {
+      #onlyScreen::before {
+        content: "This won't be here when printed"
+      }
+    }
   </style>
 </head>
 <body>
   <p>This paragraph is always here</p>
-  <p id="onlyScreen">This paragraph is not here when printed</p>
+  <p id="onlyScreen"></p>
 </body>
 </html>
