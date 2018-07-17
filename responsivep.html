@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Paragraph</title>
+  <style>
+    @media (min-width: 500px) {
+      #paragraph::before {
+        content: "This one is responsive";
+      }
+    }
+    @media (max-width: 499px) {
+      #paragraph::before {
+        content: "It's responsive";
+      }
+    }
+  </style>
+</head>
+<body>
+  <p>This one is normal</p>
+  <p id="paragraph"></p>
+</body>
+</html>
