@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Print Only</title>
+  <style>
+    @media print {
+      #onlyScreen {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <p>This paragraph is always here</p>
+  <p id="onlyScreen">This paragraph is not here when the page is printed</p>
+</body>
+</html>
