@@ -1,10 +1,17 @@
 $color: red;
-	h1 {
-		color: $color;
-	}
-  div {
-  		font-size: 18px;
-  		p {
-  			color: red;
-  		}
-  }
+h1 {
+	color: $color;
+}
+div {
+  	font-size: 18px;
+  	p {
+  		color: red;
+  	}
+}
+%changing {
+  font-size: 20px;
+}
+.change-background {
+  @extend %changing;
+  color: springgreen;
+}
