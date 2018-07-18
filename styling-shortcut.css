@@ -6,10 +6,14 @@ div {
   div p {
     color: red; }
 
-.change-background {
-  font-size: 20px; }
+#make-green, #make-purple {
+  font-size: 20px;
+  border: 1px solid black; }
 
-.change-background {
+#make-green {
   color: springgreen; }
+
+#make-purple {
+  color: purple; }
 
 /*# sourceMappingURL=styling-shortcut.css.map */
