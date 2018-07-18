@@ -1,4 +1,9 @@
 h1 {
   color: red; }
 
+div {
+  font-size: 18px; }
+  div p {
+    color: red; }
+
 /*# sourceMappingURL=styling-shortcut.css.map */

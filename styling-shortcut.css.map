@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AACC,EAAG;EACF,KAAK,EAFC,GAAG",
+"mappings": "AACC,EAAG;EACF,KAAK,EAFC,GAAG;;AAIT,GAAI;EACF,SAAS,EAAE,IAAI;EACf,KAAE;IACD,KAAK,EAAE,GAAG",
 "sources": ["styling-shortcut.scss"],
 "names": [],
 "file": "styling-shortcut.css"
